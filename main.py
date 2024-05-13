@@ -30,8 +30,6 @@ while True:
   email = input("\n\nEnter you email -------------------> ").strip()
   address = input("\n\nEnter your address -----------------> ").strip()
 
-
-
   break
 nikhil = {
     "name": name,
@@ -49,7 +47,7 @@ os.system("clear")
 print(
     f'{purple}\n\n              _____ BASIC INFORMATION FORM _____\n{normal}')
 
-print(green, "\n\nsuccessfuly submited form 👍",normal)
+print(green, "\n\nsuccessfuly submited form 👍", normal)
 print("\n\nHere's your message for furthere information\n\n\n")
 print(f"""{green}
 Hi {nikhil['name']},
